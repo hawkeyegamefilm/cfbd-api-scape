@@ -1,1 +1,4 @@
 cfbd~=4.5.2
+psycopg2~=2.9.9
+pandas~=1.5.3
+SQLAlchemy~=2.0.20
