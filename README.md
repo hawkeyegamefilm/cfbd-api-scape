@@ -60,13 +60,3 @@ Illinois | 13
 Nebraska | 13
 Michigan | 0
 Tennessee | 0
-
-
-
-
-
-
-
-
-Tennessee | 0
-
