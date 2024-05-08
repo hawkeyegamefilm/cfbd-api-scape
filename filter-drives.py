@@ -2,7 +2,7 @@ import math
 import os
 
 import pandas as pd
-from sqlalchemy import create_engine,text
+from sqlalchemy import create_engine, text
 
 postgres_user = os.environ['POSTGRES_USER']
 postgres_pw = os.environ['POSTGRES_PW']
@@ -72,7 +72,6 @@ def bcf_filter_drives_for_garbage_time(year):
     filtered_df2 = subtract_dataframes(filtered_df,rule_2_drives)
     filtered_df3 = subtract_dataframes(filtered_df2,rule_3_drives)
     filtered_df4 = subtract_dataframes(filtered_df3,rule_4_drives)
-
 
     return filtered_df4
 

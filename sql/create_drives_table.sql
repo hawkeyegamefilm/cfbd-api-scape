@@ -1,5 +1,4 @@
-CREATE TABLE IF NOT EXISTS cfbd.drives
-(
+CREATE TABLE IF NOT EXISTS cfbd.drives (
     id serial,
     year smallint,
     offense varchar,
